@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(195, 200, 222);
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: black;
+    font-family: "Big Shoulders Stencil", sans-serif;
+    border-radius: 30px;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-link {
+    margin-right: 20px;
+    margin-left: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Spline Sans", sans-serif;
+}
+
+.nav-link:hover {
+    color: pink;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(248, 26, 90);
+    background-color: pink;
+    margin-right: -35px;
+    color: black;
+}
+
+.btn {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+.main {
+    background: url(img/chill.webp) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+
+.main h1 {
+    font-size: 4rem;
+}
+
+.btn0 {
+    height: 50px;
+    width: 30%;
+    border: rgb(163, 73, 73);
+    outline: none;
+    background-color: rgb(198, 40, 161);
+    color: rgb(217, 206, 206);
+    font-weight: 700;
+    border-radius: 25px;
+}
+
+.btn0 a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn0:hover {
+    background-color: rgb(114, 61, 221);
+    transition: 0.5s;
+}
+
+h1 {
+    color: rgb(15, 237, 15);
+}
+
+.card:hover {
+    box-shadow: -1px -15px 57px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+}
+
+.btn1 {
+    height: 50px;
+    width: 30%;
+    outline: none;
+    background-color: rgb(58, 228, 89);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border-radius: 25px;
+}
+
+.btn1 a {
+    text-decoration: none;
+}
+
+.btn1:hover {
+    background-color: rgb(164, 174, 255);
+    transition: 0.5s;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #969795;
+}
+
+.about-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.feature-card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+    background: #fff;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.camp-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.camp-text h1 {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.camp-text p {
+    color: #6c757d;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .input-group input {
+    flex: 1;
+    height: 40px; /* Ensure same height */
+  }
+  
+  .input-group button {
+    height: 40px; /* Match input height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+.btn a {
+    background-color: #0381ff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn a:hover {
+    color: white;
+
+}
+
+
+.contact-container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    width: 100%;
+    background-color: #17a2b8;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #138496;
+}
+
+.contact-image img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.hero-section {
+    position: relative;
+    background: url('img/background pt.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    clip-path: ellipse(100% 85% at center top);
+}
+
+.hero-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    max-width: 500px;
+    margin: auto;
+}
+
+.hero-section .btn {
+    margin-top: 15px;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .main h1 {
+        font-size: 2.5rem;
+    }
+    .hero-section {
+        padding: 50px 0;
+    }
+    .about-section h1, .camp-text h1 {
+        font-size: 2rem;
+    }
+    .feature-card img {
+        width: 60px;
+    }
+    .btn, .btn0, .btn1 {
+        width: 50%;
+    }
+}
